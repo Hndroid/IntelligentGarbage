@@ -1,0 +1,16 @@
+@startuml
+
+abstract class BaseActivity extends SupportActivity
+class MainActivity extends BaseActivity {
+    private static BluetoothSocket mmSocket
+    private static BluetoothDevice mmDevice
+    private static BluetoothAdapter mBluetoothAdapter
+    public ConnectThread(BluetoothDevice device, BluetoothAdapter bluetoothAdapter)
+}
+abstract class BaseFragment extends SupportFragment
+class MyDeviceFragment extends BaseFragment implements MyDeviceFragmentView
+class SearchDeciceFragment extends BaseFragment implements SearchDeciceFragmentView
+class SettingFragment extends BaseFragment implements SettingFragmentView
+class DeviceStatusFragment extends BaseFragment implements DeviceStatusFragmentView, View.OnClickListener, View.OnTouchListener
+
+@enduml

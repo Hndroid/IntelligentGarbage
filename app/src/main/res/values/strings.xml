@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">守护GO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="more">更多</string>
+    <string name="settings">设置</string>
+    <string name="search_decice">发现设备</string>
+    <string name="status_decice">设备状态</string>
+    <string name="my_decice">我的设备</string>
+    <string name="team">益达梦之队</string>
+    <string name="project_name">自动跟随智能垃圾桶</string>
+    <string name="team_name">Android</string>
+    <string name="edit_username">帐号</string>
+    <string name="edit_password">密码</string>
+    <string name="button_login">登录</string>
+    <string name="button_signup">注册</string>
+    <string name="button_confirm_login">确认登录</string>
+    <string name="button_cancel_login">取消登录</string>
+    <string name="button_confirm_signup">确认注册</string>
+    <string name="button_cancel_signup">取消注册</string>
+
+</resources>
